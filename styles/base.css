@@ -1,11 +1,40 @@
 body {
-    margin: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 91, 126);
     text-align: center;
+    color: white;
+
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
     background-color: rgb(65, 91, 126);
-    margin-bottom: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h1  {
+    display: flex;
+
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#nameText {
+    color: rgb(240, 240, 76);
+    font-size: 1.3em;
 }
 
 footer {
@@ -13,10 +42,11 @@ footer {
 }
 
 nav {
-    background-color: rgb(62, 68, 68);
+    background-color: rgb(55, 59, 59);
     display: flex;
     justify-content: center;
-    gap: 12.5%;    
+    gap: 12.5%;
+    font-size: small;
 }
 
 nav a {
@@ -25,6 +55,9 @@ nav a {
 }
 
 main {
+    /* I chose padding instead of max-width to keep the white background
+    of the main section across the width of the page */
+    padding: 2%;
     background-color: white;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -36,34 +69,53 @@ main {
     display: block;
     border: 1px solid grey;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px;
+}
+
+#location {
+    color: black;
+    border-bottom: 1px solid grey;
+    width: 70%;
+    margin-left: 15%;
+
 }
 
 .card-title {
-    width: 100%;
+    background-color: rgb(65, 91, 126);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    border-radius: 8px 8px 0 0;
 }
 
 .card-description {
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
     text-align: left;
+    color: black;
 }
 
 #img-me {
-    max-width: 20%;
+    width: 20%;
     margin: 20px;
 }
 
 #flag {
-    max-width: 28%;
+    width: 180%;
     margin: 20px;
 }
 
 #flag-name {
     font-style: italic;
+    font-size: 90%;
+    margin-bottom: 0px;
 }
 
 #img-flag {
+    border: 1px solid grey;
     width: 100%;
 }
 
@@ -72,4 +124,9 @@ main {
     height: 90%;
     text-align: left;
     align-items: center;
+}
+
+#lastModified {
+    color: rgb(240, 240, 76);
+    font-size: small;
 }
