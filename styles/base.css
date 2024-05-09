@@ -54,15 +54,17 @@ nav a {
     color: white;
 }
 
+nav :hover {
+
+}
+
 main {
-    /* I chose padding instead of max-width to keep the white background
-    of the main section across the width of the page */
     padding: 2%;
     background-color: white;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
-
+    max-width: 10000px;
 }
 
 .card {
