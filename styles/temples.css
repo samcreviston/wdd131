@@ -1,0 +1,64 @@
+* {
+    margin: none;
+    padding: none;
+    max-width: 100%;
+    
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: rgb(197, 117, 42);
+    color: white;
+    margin: auto;
+    
+}
+
+#title {
+    padding: 10px 0px 10px 10px;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+#horizontal-nav {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#burger-menu {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+#burger-menu img {
+    Height: 50px;
+    padding: 6px 12px 0px 0px;
+}
+
+nav {
+    display: flex;
+}
+
+#drop-down {
+    display: none; /* Initially hidden */
+}
+
+#drop-down.show {
+    display: block; /* Shown when the 'show' class is added */
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    background-color: rgb(197, 117, 42);
+    color: white;
+    margin-top: 20px;
+}

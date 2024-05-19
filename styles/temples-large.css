@@ -1,0 +1,23 @@
+main {
+
+}
+
+header {
+    align-items: center;
+}
+
+#title {
+    margin-right: -5px;
+}
+
+#horizontal-nav {
+    display: flex;
+}
+
+#horizontal-nav h2 {
+    margin: 0px 18px 0px 18px;
+}
+
+#burger-menu {
+    display: none;
+}
