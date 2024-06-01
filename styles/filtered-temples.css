@@ -49,6 +49,11 @@ nav {
     display: flex;
 }
 
+nav a:hover {
+    text-decoration: underline;
+
+}
+
 #drop-down {
     display: none; /* Initially hidden */
 }
